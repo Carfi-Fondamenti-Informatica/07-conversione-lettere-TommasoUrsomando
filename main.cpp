@@ -1,5 +1,13 @@
 #include <iostream>
-
+using namespace std;
+#include "lib.h"
 int main(){
-  return 0;
+    char a;
+    cin >> a;
+    if(funzione(a)==true) {
+        cout << a << endl;
+    } else if(funzione(a)==false) {
+        cout << "errore" << endl;
+    }
+    return 0;
 }
