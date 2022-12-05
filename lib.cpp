@@ -1,1 +1,2 @@
 
+bool funzione (char &a);
