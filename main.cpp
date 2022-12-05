@@ -2,6 +2,8 @@
 using namespace std;
 #include "lib.h"
 
+
+
 int main(){
     char a;
     cin >> a;
@@ -10,6 +12,5 @@ int main(){
     } else if(funzione(a)==false) {
         cout << "errore" << endl;
     }
-    
     return 0;
 }
